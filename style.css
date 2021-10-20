@@ -56,7 +56,7 @@ nav a {
 	margin-right: 10px;
 }
 
-button#addBtn {
+input[type='submit'] {
 	cursor: pointer;
 	border: none;
 	outline: none;
@@ -75,6 +75,7 @@ button#addBtn {
 	border-radius: 5px;
 	background: rgb(202, 136, 136);
 	cursor: pointer;
+	float: right;
 }
 
 .deleteBtn:hover {
@@ -85,6 +86,7 @@ button#addBtn {
 	width: 80%;
 	margin: 20px auto;
 }
+
 .list-item div {
 	display: flex;
 	align-items: center;

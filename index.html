@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>ToDoList</title>
-</head>
-<body>
-    <!-- Navbar -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<title>ToDoList</title>
+	</head>
+	<body>
+		<!-- Navbar -->
 		<header>
 			<nav class="container">
 				<a href="index.html">To Do List</a>
 			</nav>
 		</header>
 
-    <!-- To Do list section -->
-    <section id="todo-section">
-        <h1>Welcome!!</h1>
+		<!-- To Do list section -->
+		<section id="todo-section">
+			<h1>Welcome!!</h1>
 
+			<form action="" id="form">
+				<div class="card">
+					<div class="card-inner">
+						<input
+							type="text"
+							id="inputElement"
+							placeholder="Enter your name"
+						/>
+						<input type="submit" value="Add Name"></input>
+					</div>
+					<ol class="list-group" id="list-group"></ol>
+				</div>
+			</form>
+		</section>
 
-        <div class="card ">
-        <div class="card-inner">
-            <input type="text" id="inputElement" placeholder="Enter your name"> 
-            <button type="button" id="addBtn" onclick="onNameAdd()">Add Name</button>
-        </div>
-        <ol class="list-group" id="list-group">
-            
-        </ol>
-    </div>
-    </section>
-
-    <script src="./index.js"></script>
-</body>
+		<script src="./index.js"></script>
+	</body>
 </html>
